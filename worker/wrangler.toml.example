@@ -1,0 +1,8 @@
+name = "brington-placement-email"
+main = "placement-email-worker.ts"
+compatibility_date = "2026-06-24"
+
+[vars]
+TEACHER_EMAIL = "teacher@example.com"
+FROM_EMAIL = "Placement Test <placement@yourdomain.com>"
+ALLOWED_ORIGIN = "https://your-placement-site.pages.dev"
