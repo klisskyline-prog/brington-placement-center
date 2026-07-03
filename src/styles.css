@@ -8182,3 +8182,53 @@ textarea::placeholder {
   margin: 0.34rem 0;
   line-height: 1.45;
 }
+
+
+/* Advisor call page + intro CTA polish */
+.advisor-hero-button.xl {
+  min-height: 56px;
+  padding: 0 26px;
+  font-size: 16px;
+}
+
+.advisor-mini-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 28px;
+}
+
+.advisor-mini-grid > div {
+  padding: 18px;
+  border: 1px solid var(--bia-line, #d9e2f2);
+  border-radius: 18px;
+  background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+}
+
+.advisor-mini-grid strong,
+.advisor-mini-grid span {
+  display: block;
+}
+
+.advisor-mini-grid strong {
+  color: var(--bia-navy-900, #061a40);
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+
+.advisor-mini-grid span {
+  color: var(--bia-muted, #4b5c76);
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.contact-item-highlight {
+  border-color: rgba(215, 167, 44, 0.45);
+  background: linear-gradient(135deg, #fffaf0 0%, #ffffff 55%, #f7fbff 100%);
+}
+
+@media (max-width: 760px) {
+  .advisor-mini-grid {
+    grid-template-columns: 1fr;
+  }
+}

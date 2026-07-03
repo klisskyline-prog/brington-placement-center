@@ -26,6 +26,9 @@ export function IntroPage({ onStart }: { onStart: () => void }) {
             <button className="primary-button xl" onClick={onStart}>
               Choose Placement Test
             </button>
+            <a className="secondary-button xl advisor-hero-button" href="?page=advisor-call">
+              Book Advisor Call
+            </a>
             <span className="time-pill">No login required</span>
           </div>
           <div className="trust-row">

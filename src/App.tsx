@@ -1,5 +1,5 @@
 import { PlacementCenterApp } from "./app/PlacementCenterApp";
-import AdvisorCallPage from "./pages/AdvisorCallRoute";
+import AdvisorCallPage from "./pages/AdvisorCallPage";
 
 function shouldShowAdvisorPage() {
   const params = new URLSearchParams(window.location.search);
