@@ -1,3 +1,4 @@
+import type { CSSProperties } from "react";
 import type { Step } from "../types";
 
 const defaultStepOrder: Step[] = [
@@ -40,6 +41,12 @@ export function StepIndicator({
   skipReview?: boolean;
 }) {
   const stepOrder = getStepOrder(skipReview);
+  const progressPercent =
+    stepOrder.length > 1 ? (activeStepIndex / (stepOrder.length - 1)) * 100 : 0;
+  const trackStyle = {
+    "--step-progress": `${progressPercent}%`,
+    "--step-count": stepOrder.length,
+  } as CSSProperties;
 
   return (
     <div className="step-bar" aria-label="Placement test progress">
@@ -53,18 +60,23 @@ export function StepIndicator({
         className={
           skipReview ? "step-track five-steps" : "step-track six-steps"
         }
+        style={trackStyle}
       >
-        {stepOrder.map((item, index) => (
-          <div
-            className={
-              index <= activeStepIndex ? "track-item active" : "track-item"
-            }
-            key={item}
-          >
-            <span>{index + 1}</span>
-            <small>{stepLabels[item]}</small>
-          </div>
-        ))}
+        {stepOrder.map((item, index) => {
+          const status =
+            index < activeStepIndex
+              ? "done"
+              : index === activeStepIndex
+                ? "current"
+                : "upcoming";
+
+          return (
+            <div className={`track-item ${status}`} key={item}>
+              <span>{index + 1}</span>
+              <small>{stepLabels[item]}</small>
+            </div>
+          );
+        })}
       </div>
     </div>
   );

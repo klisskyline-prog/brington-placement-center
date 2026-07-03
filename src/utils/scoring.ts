@@ -1,6 +1,8 @@
 import { eslPlacementLevels } from "../data/eslPlacementData";
 import { ieltsPlacementLevels } from "../data/ieltsPlacementData";
 import { satPlacementLevels } from "../data/satPlacementData";
+import { chinesePlacementLevels } from "../data/chinesePlacementData";
+import { k12PlacementLevels } from "../data/k12PlacementData";
 import type { AnswerMap, PlacementLevel, PlacementQuestion, PlacementScore, SectionScore, TestId } from "../types";
 
 function normalizeText(value: unknown) {
@@ -28,16 +30,22 @@ export function calculateScore(questions: PlacementQuestion[], answers: AnswerMa
   const correct = questions.reduce((sum, question) => {
     return sum + (isQuestionCorrect(question, answers[question.id]) ? 1 : 0);
   }, 0);
-  const percent = total > 0 ? Math.round((correct / total) * 100) : 0;
-  const estimatedTotalScale = percent;
-  const level = getPlacementLevel(testId, estimatedTotalScale);
+  const rawPercent = total > 0 ? Math.round((correct / total) * 100) : 0;
   const sectionScores = getSectionScores(questions, answers);
+  const estimatedTotalScale =
+    testId === "chinese"
+      ? getChineseWeightedAutoGradeScale(sectionScores)
+      : rawPercent;
+  const percent = estimatedTotalScale;
+  const level = getPlacementLevel(testId, estimatedTotalScale);
   return { correct, total, percent, estimatedTotalScale, level, sectionScores };
 }
 
 export function getPlacementLevel(testId: TestId, scoreOn100Scale: number): PlacementLevel {
   if (testId === "ielts") return getIeltsPlacementLevel(scoreOn100Scale);
   if (testId === "sat") return getSatPlacementLevel(scoreOn100Scale);
+  if (testId === "chinese") return getChinesePlacementLevel(scoreOn100Scale);
+  if (testId === "diploma") return getK12PlacementLevel(scoreOn100Scale);
   return getEslPlacementLevel(scoreOn100Scale);
 }
 
@@ -60,6 +68,42 @@ export function getIeltsPlacementLevel(scoreOn100Scale: number): PlacementLevel 
   return ieltsPlacementLevels[5];
 }
 
+
+export function getK12PlacementLevel(scoreOn100Scale: number): PlacementLevel {
+  if (scoreOn100Scale <= 30) return k12PlacementLevels[0];
+  if (scoreOn100Scale <= 50) return k12PlacementLevels[1];
+  if (scoreOn100Scale <= 70) return k12PlacementLevels[2];
+  if (scoreOn100Scale <= 85) return k12PlacementLevels[3];
+  return k12PlacementLevels[4];
+}
+
+export function getChinesePlacementLevel(scoreOn100Scale: number): PlacementLevel {
+  if (scoreOn100Scale <= 20) return chinesePlacementLevels[0];
+  if (scoreOn100Scale <= 40) return chinesePlacementLevels[1];
+  if (scoreOn100Scale <= 60) return chinesePlacementLevels[2];
+  if (scoreOn100Scale <= 80) return chinesePlacementLevels[3];
+  return chinesePlacementLevels[4];
+}
+
+const CHINESE_AUTO_SECTION_POINTS: Record<string, number> = {
+  listening: 20,
+  pinyin: 15,
+  vocabulary: 20,
+  grammar: 20,
+  reading: 15,
+};
+
+export function getChineseWeightedAutoGradeScale(sectionScores: SectionScore[]) {
+  const maxAutoPoints = Object.values(CHINESE_AUTO_SECTION_POINTS).reduce((sum, value) => sum + value, 0);
+  if (!maxAutoPoints) return 0;
+
+  const weightedPoints = sectionScores.reduce((sum, section) => {
+    const sectionPoints = CHINESE_AUTO_SECTION_POINTS[section.sectionId] ?? 0;
+    return sum + (section.percent / 100) * sectionPoints;
+  }, 0);
+
+  return Math.round((weightedPoints / maxAutoPoints) * 100);
+}
 
 export function getSatPlacementLevel(scoreOn100Scale: number): PlacementLevel {
   if (scoreOn100Scale <= 15) return satPlacementLevels[0];

@@ -7,7 +7,7 @@ export function SelectTestPage({ selectedTestId, onSelect }: { selectedTestId: T
       <div className="section-heading centered">
         <p className="eyebrow">Select placement pathway</p>
         <h2>Which placement test does the student need?</h2>
-        <p className="section-note">ESL and IELTS are active. SAT, K–12, Chinese, and AI are modular advisor-intake modules ready for later expansion.</p>
+        <p className="section-note">ESL, IELTS, SAT, and Chinese are active. K–12 and AI are advisor-intake modules ready for later expansion.</p>
       </div>
       <div className="test-card-grid">
         {placementModules.map((module) => (

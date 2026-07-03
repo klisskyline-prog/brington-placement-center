@@ -1,17 +1,26 @@
+const BRINGTON_CREST_URL =
+  "https://skyline-esl-lessons.klis-skyline.workers.dev/assets/homepage/brington-logo.png";
+
 export function TopBar() {
   return (
     <header className="topbar">
-      <a className="brand" href="#top" aria-label="Brington Placement Center">
-        <span className="brand-mark">B</span>
-        <span>
-          <strong>Brington</strong>
-          <small>Placement Center</small>
+      <a className="brand" href="./" aria-label="Brington International Academy">
+        <span className="brand-mark brand-mark-logo">
+          <img src={BRINGTON_CREST_URL} alt="" />
+        </span>
+        <span className="brand-wordmark" aria-hidden="true">
+          <strong>BRINGTON</strong>
+          <small>INTERNATIONAL ACADEMY</small>
+          <em>TEXAS, USA · K–12</em>
         </span>
       </a>
-      <nav className="topbar-actions" aria-label="Quick information">
-        <span>6 placement pathways</span>
-        <span>ESL/IELTS A/B auto-random</span>
-        <a href="mailto:admissions@example.com">Contact Advisor</a>
+
+      <nav className="topbar-actions" aria-label="Placement Center navigation">
+        <a href="https://online.bringtonacademy.org/" className="topbar-link">Home</a>
+        <a href="#placement-workspace" className="topbar-link">Placement</a>
+        <a href="?page=advisor-call" className="topbar-cta">
+          Contact Advisor
+        </a>
       </nav>
     </header>
   );

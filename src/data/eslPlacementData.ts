@@ -40,11 +40,11 @@ export const placementTestCards: PlacementTestCard[] = [
   {
     "id": "chinese",
     "title": "Chinese Placement",
-    "subtitle": "Beginner to academic Chinese",
-    "description": "Chinese level check for students entering Skyline language programs.",
-    "duration": "Coming next",
-    "status": "intake_only",
-    "accent": "Advisor intake"
+    "subtitle": "Mandarin Starter to Elementary",
+    "description": "Auto-graded Mandarin listening, pinyin, vocabulary, grammar, and reading with teacher/advisor speaking review.",
+    "duration": "35–50 min",
+    "status": "active",
+    "accent": "Ready"
   },
   {
     "id": "ai",

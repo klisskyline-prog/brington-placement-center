@@ -14,6 +14,7 @@ export type ContactPageProps = {
 export function ContactPage({ contact, module, submitMessage, onSelectAnother, onSubmit, onUpdate }: ContactPageProps) {
   const buttonLabel = module.mode === "auto_grade" ? "Start Placement Test" : "Continue to Advisor Review";
   const targetOptions = module.levels?.map((level) => level.label) ?? [];
+  const isK12 = module.id === "diploma";
 
   return (
     <div className="two-column-step">
@@ -24,19 +25,19 @@ export function ContactPage({ contact, module, submitMessage, onSelectAnother, o
         <form className="form-grid" onSubmit={onSubmit}>
           <label>Student name *<input value={contact.studentName} onChange={(e) => onUpdate("studentName", e.target.value)} placeholder="Student full name" /></label>
           <label>Parent/Guardian name *<input value={contact.parentName} onChange={(e) => onUpdate("parentName", e.target.value)} placeholder="Parent full name" /></label>
-          <label>Grade level<input value={contact.gradeLevel} onChange={(e) => onUpdate("gradeLevel", e.target.value)} placeholder="Example: Grade 7" /></label>
+          <label>{isK12 ? "Current / last completed grade" : "Grade level"}<input value={contact.gradeLevel} onChange={(e) => onUpdate("gradeLevel", e.target.value)} placeholder={isK12 ? "Example: Grade 6 or completed Grade 5" : "Example: Grade 7"} /></label>
           <label>Student age<input value={contact.studentAge} onChange={(e) => onUpdate("studentAge", e.target.value)} placeholder="Example: 13" /></label>
           <label>Zalo phone<input value={contact.zaloPhone} onChange={(e) => onUpdate("zaloPhone", e.target.value)} placeholder="Zalo phone number" /></label>
           <label>Gmail / Email<input value={contact.email} onChange={(e) => onUpdate("email", e.target.value)} placeholder="example@gmail.com" /></label>
-          <label>Program interest<input value={contact.programInterest} onChange={(e) => onUpdate("programInterest", e.target.value)} placeholder="Program interest" /></label>
+          <label>{isK12 ? "Pathway goal" : "Program interest"}<input value={contact.programInterest} onChange={(e) => onUpdate("programInterest", e.target.value)} placeholder={isK12 ? "Full American Diploma / Parallel / Subject support / Not sure" : "Program interest"} /></label>
           <label>Preferred contact method<select value={contact.preferredContact} onChange={(e) => onUpdate("preferredContact", e.target.value as ContactInfo["preferredContact"])}><option>Zalo</option><option>Gmail</option><option>Either</option></select></label>
           {targetOptions.length ? (
             <label>Target level<select value={contact.targetLevel} onChange={(e) => onUpdate("targetLevel", e.target.value)}>{targetOptions.map((item) => <option key={item}>{item}</option>)}</select></label>
           ) : (
-            <label>Target / certificate goal<input value={contact.targetLevel} onChange={(e) => onUpdate("targetLevel", e.target.value)} placeholder="Example: SAT 1300, HSK 3" /></label>
+            <label>{isK12 ? "Intended entry grade" : "Target / certificate goal"}<input value={contact.targetLevel} onChange={(e) => onUpdate("targetLevel", e.target.value)} placeholder={isK12 ? "Example: Grade 6" : "Example: SAT 1300, HSK 3"} /></label>
           )}
-          <label>Target date<input type="date" value={contact.targetDate} onChange={(e) => onUpdate("targetDate", e.target.value)} /></label>
-          <label>Study days per week<select value={contact.studyDaysPerWeek} onChange={(e) => onUpdate("studyDaysPerWeek", e.target.value)}><option value="3">3 days/week</option><option value="4">4 days/week</option><option value="5">5 days/week</option><option value="6">6 days/week</option><option value="7">7 days/week</option></select></label>
+          {!isK12 && <label>Target date<input type="date" value={contact.targetDate} onChange={(e) => onUpdate("targetDate", e.target.value)} /></label>}
+          <label>{isK12 ? "Available support days per week" : "Study days per week"}<select value={contact.studyDaysPerWeek} onChange={(e) => onUpdate("studyDaysPerWeek", e.target.value)}><option value="3">3 days/week</option><option value="4">4 days/week</option><option value="5">5 days/week</option><option value="6">6 days/week</option><option value="7">7 days/week</option></select></label>
           {submitMessage && <p className="error-message full-row">{submitMessage}</p>}
           <div className="button-row full-row space-between">
             <button className="secondary-button" type="button" onClick={onSelectAnother}>Choose another test</button>

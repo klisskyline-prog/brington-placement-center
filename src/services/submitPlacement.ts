@@ -2,6 +2,36 @@ import type { PlacementSubmissionPayload } from "../types";
 
 const apiUrl = import.meta.env.VITE_PLACEMENT_API_URL as string | undefined;
 
+function stripHtml(value: string) {
+  return value
+    .replace(/<script[\s\S]*?<\/script>/gi, "")
+    .replace(/<style[\s\S]*?<\/style>/gi, "")
+    .replace(/<[^>]*>/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function getReadableApiError(text: string) {
+  if (!text) return "Placement submission failed.";
+
+  try {
+    const parsed = JSON.parse(text) as { error?: string; message?: string; detail?: string };
+    const base = parsed.error || parsed.message || "Placement submission failed.";
+
+    // The backend can save the placement but fail while handing off the email.
+    // Do not show the raw provider HTML page inside the app.
+    if (/email delivery failed/i.test(base)) {
+      return "Placement result was received, but automatic email delivery failed on the backend. Please use Download Backup JSON or Open Email Draft, then check the email worker / Google mail endpoint.";
+    }
+
+    const detail = parsed.detail ? stripHtml(String(parsed.detail)).slice(0, 220) : "";
+    return detail ? `${base} — ${detail}` : base;
+  } catch {
+    const cleaned = stripHtml(text).slice(0, 280);
+    return cleaned || "Placement submission failed.";
+  }
+}
+
 export async function submitPlacement(payload: PlacementSubmissionPayload) {
   if (!apiUrl) {
     return {
@@ -19,7 +49,7 @@ export async function submitPlacement(payload: PlacementSubmissionPayload) {
 
   if (!response.ok) {
     const text = await response.text().catch(() => "");
-    throw new Error(text || "Placement submission failed.");
+    throw new Error(getReadableApiError(text));
   }
 
   return { ok: true, mode: "api" as const, message: "Submission sent successfully." };
@@ -46,19 +76,35 @@ function formatReport(report: any) {
         `Note: ${studyEstimate.note}`,
       ]
     : [];
+  const supportPlan = report.supportPlan;
+  const supportPlanLines = supportPlan
+    ? [
+        `Support level: ${supportPlan.label}`,
+        `Suggested support period: ${supportPlan.weeks}`,
+        `Weekly support guide: ${supportPlan.weeklyHours}`,
+        `Focus: ${Array.isArray(supportPlan.focus) ? supportPlan.focus.join(", ") : "Advisor review"}`,
+        `Note: ${supportPlan.note}`,
+      ]
+    : [];
+  const guardrailLines = Array.isArray(report.guardrails) ? report.guardrails.map((item: any) => `- ${item}`) : [];
 
   return [
+    ...(report.gradeBandLabel ? ["", "K-12 GRADE BAND", String(report.gradeBandLabel)] : []),
+    ...(report.recommendedStartingPoint ? ["", "RECOMMENDED STARTING POINT", String(report.recommendedStartingPoint)] : []),
     ...(sectionLines.length ? ["", "SECTION BREAKDOWN", ...sectionLines] : []),
     ...(report.skillProfile ? ["", "SKILL PROFILE", report.skillProfile] : []),
     ...(priorityLines.length ? ["", "PRIORITY FOCUS", ...priorityLines] : []),
     ...(report.placementConfidence ? ["", "PLACEMENT CONFIDENCE", `${report.placementConfidence.label}: ${report.placementConfidence.reason}`] : []),
     ...(studyEstimateLines.length ? ["", "STUDY TIME ESTIMATE", ...studyEstimateLines] : []),
+    ...(supportPlanLines.length ? ["", "SUPPORT / BRIDGE ESTIMATE", ...supportPlanLines] : []),
+    ...(guardrailLines.length ? ["", "ADVISOR GUARDRAILS", ...guardrailLines] : []),
+    ...(report.scoringNote ? ["", "SCORING NOTE", String(report.scoringNote)] : []),
   ];
 }
 
 export function buildTeacherEmailText(payload: PlacementSubmissionPayload) {
   const { contact, teacherReview, test, score } = payload;
-  const moduleReport = (payload as any).moduleReport ?? (payload as any).eslReport ?? (payload as any).ieltsReport;
+  const moduleReport = (payload as any).moduleReport ?? (payload as any).eslReport ?? (payload as any).ieltsReport ?? (payload as any).chineseReport ?? (payload as any).k12Report;
   const fallbackSectionLines = score?.sectionScores.map((section) => `- ${section.title}: ${section.correct}/${section.total} (${section.percent}%)`) ?? [];
   const reportLines = formatReport(moduleReport);
 

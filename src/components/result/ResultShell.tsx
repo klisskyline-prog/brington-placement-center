@@ -126,9 +126,15 @@ export function SubmissionStatus({
   onDownloadBackup: () => void;
   onEmailDraft: () => void;
 }) {
+  const showTestingFallback =
+    (import.meta.env.DEV || import.meta.env.VITE_SHOW_TEST_BACKUP_ACTIONS === "true") &&
+    (submitStatus === "no_api" || submitStatus === "error");
+  const showStatusMessage =
+    Boolean(submitMessage) && (submitStatus !== "no_api" || showTestingFallback);
+
   return (
     <>
-      {submitMessage && (
+      {showStatusMessage && (
         <p
           className={
             submitStatus === "sent" ? "success-message" : "warning-message"
@@ -137,8 +143,8 @@ export function SubmissionStatus({
           {submitMessage}
         </p>
       )}
-      {(submitStatus === "no_api" || submitStatus === "error") && (
-        <div className="fallback-box">
+      {showTestingFallback && (
+        <div className="fallback-box" data-testing-only="true">
           <p>
             Automatic email sending is not configured yet. For testing, download
             the JSON backup or open an email draft.

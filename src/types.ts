@@ -130,6 +130,8 @@ export type PlacementSubmissionPayload = {
   score?: PlacementScore;
   eslReport?: EslPlacementReport | unknown;
   ieltsReport?: unknown;
+  chineseReport?: unknown;
+  k12Report?: unknown;
   moduleReport?: unknown;
   teacherReview: TeacherReview;
   submittedAt: string;

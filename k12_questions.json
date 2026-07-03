@@ -1,0 +1,2348 @@
+{
+  "g3_5": [
+    {
+      "id": "K12-G3-5-R1",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: Mia planted three bean seeds in a cup. She watered them every morning and placed the cup near a sunny window. After six days, two small green stems appeared. Mia wrote the date and drew a picture in her science notebook.\n\nWhat is the passage mostly about?",
+      "options": [
+        "Mia learning to cook beans",
+        "Mia observing bean seeds grow",
+        "Mia buying a sunny window",
+        "Mia cleaning her notebook"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "K12-G3-5-R2",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: Mia planted three bean seeds in a cup. She watered them every morning and placed the cup near a sunny window. After six days, two small green stems appeared. Mia wrote the date and drew a picture in her science notebook.\n\nWhy did Mia put the cup near the window?",
+      "options": [
+        "The seeds needed sunlight",
+        "The notebook was too dark",
+        "The cup was heavy",
+        "The beans were already cooked"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G3-5-R3",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: Mia planted three bean seeds in a cup. She watered them every morning and placed the cup near a sunny window. After six days, two small green stems appeared. Mia wrote the date and drew a picture in her science notebook.\n\nWhat did Mia do after the stems appeared?",
+      "options": [
+        "She threw the cup away",
+        "She wrote and drew in her notebook",
+        "She stopped watering forever",
+        "She bought three more windows"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "K12-G3-5-R4",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: On Monday, the class library had 24 books. Mr. Lee added 8 new books about animals. By Friday, students had borrowed 10 books. The class made a chart to show how many books were still on the shelf.\n\nHow many books were in the class library after Mr. Lee added new books?",
+      "options": [
+        "16",
+        "24",
+        "32",
+        "42"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "K12-G3-5-R5",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: On Monday, the class library had 24 books. Mr. Lee added 8 new books about animals. By Friday, students had borrowed 10 books. The class made a chart to show how many books were still on the shelf.\n\nWhat happened by Friday?",
+      "options": [
+        "Students borrowed 10 books",
+        "Mr. Lee removed all books",
+        "The chart disappeared",
+        "The animals visited the class"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G3-5-R6",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: On Monday, the class library had 24 books. Mr. Lee added 8 new books about animals. By Friday, students had borrowed 10 books. The class made a chart to show how many books were still on the shelf.\n\nWhy did the class make a chart?",
+      "options": [
+        "To show the number of books left",
+        "To write a story about animals",
+        "To choose lunch",
+        "To measure the classroom"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G3-5-R7",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: A school garden needs helpers. Some students pull weeds. Others water plants or pick up leaves. The garden club meets every Wednesday after school. Students learn that plants need care each week, not just once.\n\nWhat is the main idea?",
+      "options": [
+        "Gardens need regular care",
+        "Wednesday is always rainy",
+        "Leaves are better than plants",
+        "Students should not help"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G3-5-R8",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: A school garden needs helpers. Some students pull weeds. Others water plants or pick up leaves. The garden club meets every Wednesday after school. Students learn that plants need care each week, not just once.\n\nWhich task is mentioned in the passage?",
+      "options": [
+        "Painting walls",
+        "Pulling weeds",
+        "Feeding birds",
+        "Reading poems"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "K12-G3-5-R9",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: A school garden needs helpers. Some students pull weeds. Others water plants or pick up leaves. The garden club meets every Wednesday after school. Students learn that plants need care each week, not just once.\n\nWhat does regular mean in the passage?",
+      "options": [
+        "happening again and again",
+        "very expensive",
+        "not important",
+        "without help"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G3-5-R10",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: The town parade began at ten o'clock. First came the school band. Then came a group of firefighters in a red truck. Last, children carried a banner that said, 'Thank you, helpers!' People clapped along the street.\n\nWhich group came first?",
+      "options": [
+        "Children with a banner",
+        "Firefighters",
+        "The school band",
+        "People on the street"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "K12-G3-5-R11",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: The town parade began at ten o'clock. First came the school band. Then came a group of firefighters in a red truck. Last, children carried a banner that said, 'Thank you, helpers!' People clapped along the street.\n\nWhat was the parade mostly about?",
+      "options": [
+        "Honoring community helpers",
+        "Selling red trucks",
+        "Finding lost children",
+        "Practicing math"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G3-5-R12",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: The town parade began at ten o'clock. First came the school band. Then came a group of firefighters in a red truck. Last, children carried a banner that said, 'Thank you, helpers!' People clapped along the street.\n\nWhat does clapped mean?",
+      "options": [
+        "made noise with hands",
+        "walked slowly",
+        "painted a sign",
+        "drove a truck"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G3-5-R13",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: When Leo reads a new word, he looks at the words around it. He also checks the picture. If he is still unsure, he asks himself what would make sense in the sentence. These steps help him become a stronger reader.\n\nWhat strategy does Leo use?",
+      "options": [
+        "Guessing without reading",
+        "Using context clues",
+        "Skipping every hard word",
+        "Only looking at pictures"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "K12-G3-5-R14",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: When Leo reads a new word, he looks at the words around it. He also checks the picture. If he is still unsure, he asks himself what would make sense in the sentence. These steps help him become a stronger reader.\n\nWhy does Leo check the words around a new word?",
+      "options": [
+        "They can give clues",
+        "They are always wrong",
+        "They are not part of the sentence",
+        "They make him stop reading"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G3-5-R15",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: When Leo reads a new word, he looks at the words around it. He also checks the picture. If he is still unsure, he asks himself what would make sense in the sentence. These steps help him become a stronger reader.\n\nThe passage is mainly giving...",
+      "options": [
+        "reading advice",
+        "a recipe",
+        "a weather report",
+        "a sports score"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G3-5-L1",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Choose the complete sentence.",
+      "options": [
+        "Because the dog barked.",
+        "The dog barked at the mail carrier.",
+        "Running in the yard.",
+        "After school."
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "K12-G3-5-L2",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Choose the correct word: The students ___ reading quietly.",
+      "options": [
+        "is",
+        "are",
+        "was",
+        "be"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "K12-G3-5-L3",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Choose the correct word: I ___ my homework yesterday.",
+      "options": [
+        "finish",
+        "finishes",
+        "finished",
+        "finishing"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "K12-G3-5-L4",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Choose the best word: The turtle moves very ___.",
+      "options": [
+        "slowly",
+        "brightly",
+        "loudly",
+        "hungrily"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G3-5-L5",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Choose the correct sentence.",
+      "options": [
+        "She have a blue pencil.",
+        "She has a blue pencil.",
+        "She having a blue pencil.",
+        "She haves a blue pencil."
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "K12-G3-5-L6",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Which word means almost the same as begin?",
+      "options": [
+        "start",
+        "close",
+        "carry",
+        "hide"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G3-5-L7",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Choose the correct punctuation: What time is lunch",
+      "options": [
+        "What time is lunch.",
+        "What time is lunch?",
+        "What time is lunch!",
+        "What time is lunch,"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "K12-G3-5-L8",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Choose the correct word: This book is ___ than that book.",
+      "options": [
+        "long",
+        "longer",
+        "longest",
+        "more long"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "K12-G3-5-L9",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Choose the sentence with correct capitalization.",
+      "options": [
+        "we live in texas.",
+        "We live in Texas.",
+        "we live in Texas.",
+        "We live in texas."
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "K12-G3-5-L10",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Choose the best connector: I was tired, ___ I went to bed early.",
+      "options": [
+        "so",
+        "but",
+        "or",
+        "because"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G3-5-L11",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Choose the correct word: The apples are on ___ table.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "am"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "K12-G3-5-L12",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Which word is an adjective?",
+      "options": [
+        "jump",
+        "green",
+        "quickly",
+        "under"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "K12-G3-5-L13",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Choose the correct pronoun: Sara and I finished ___ project.",
+      "options": [
+        "our",
+        "we",
+        "us",
+        "they"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G3-5-L14",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Choose the correct sentence.",
+      "options": [
+        "He does not like carrots.",
+        "He do not like carrots.",
+        "He not does like carrots.",
+        "He does like not carrots."
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G3-5-L15",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Which word means the opposite of empty?",
+      "options": [
+        "full",
+        "small",
+        "early",
+        "quiet"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G3-5-M1",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "What is 48 + 27?",
+      "options": [
+        "65",
+        "75",
+        "85",
+        "95"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "K12-G3-5-M2",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "What is 90 - 36?",
+      "options": [
+        "44",
+        "54",
+        "64",
+        "56"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "K12-G3-5-M3",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "What is 7 × 6?",
+      "options": [
+        "36",
+        "42",
+        "48",
+        "56"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "K12-G3-5-M4",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "What is 56 ÷ 8?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "K12-G3-5-M5",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "Which fraction is equal to one half?",
+      "options": [
+        "1/3",
+        "2/4",
+        "3/5",
+        "4/6"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "K12-G3-5-M6",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "A box has 5 rows of pencils with 4 pencils in each row. How many pencils are there?",
+      "options": [
+        "9",
+        "16",
+        "20",
+        "25"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "K12-G3-5-M7",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "Which number is greater than 3.5?",
+      "options": [
+        "3.05",
+        "3.25",
+        "3.6",
+        "3.49"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "K12-G3-5-M8",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "Round 346 to the nearest hundred.",
+      "options": [
+        "300",
+        "340",
+        "350",
+        "400"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G3-5-M9",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "What is the perimeter of a square with side length 6 cm?",
+      "options": [
+        "12 cm",
+        "18 cm",
+        "24 cm",
+        "36 cm"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "K12-G3-5-M10",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "A movie starts at 2:15 and ends at 3:45. How long is it?",
+      "options": [
+        "1 hour",
+        "1 hour 15 minutes",
+        "1 hour 30 minutes",
+        "2 hours"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "K12-G3-5-M11",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "Which shape has exactly three sides?",
+      "options": [
+        "circle",
+        "triangle",
+        "rectangle",
+        "hexagon"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "K12-G3-5-M12",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "What is 1/4 of 20?",
+      "options": [
+        "4",
+        "5",
+        "10",
+        "16"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "K12-G3-5-M13",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "There are 18 students. They form groups of 3. How many groups are there?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "K12-G3-5-M14",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "Which is the best estimate for 198 + 304?",
+      "options": [
+        "300",
+        "400",
+        "500",
+        "700"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "K12-G3-5-M15",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "What is 0.7 written as a fraction?",
+      "options": [
+        "7/10",
+        "7/100",
+        "1/7",
+        "70/1"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G3-5-M16",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "A plant was 12 cm tall. It grew 5 cm. How tall is it now?",
+      "options": [
+        "7 cm",
+        "15 cm",
+        "17 cm",
+        "20 cm"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "K12-G3-5-M17",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "Which number makes this true: 8 + __ = 15",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "K12-G3-5-M18",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "What is the area of a rectangle that is 4 m long and 3 m wide?",
+      "options": [
+        "7 m²",
+        "12 m²",
+        "14 m²",
+        "24 m²"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "K12-G3-5-M19",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "Which number is even?",
+      "options": [
+        "21",
+        "35",
+        "48",
+        "57"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "K12-G3-5-M20",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "A class has 30 students. 12 are absent from the music room because they are in art. How many are in the music room?",
+      "options": [
+        "12",
+        "18",
+        "30",
+        "42"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "K12-G3-5-S1",
+      "sectionId": "science",
+      "sectionTitle": "Science / Social Studies Reading",
+      "prompt": "Which is a basic need of most plants?",
+      "options": [
+        "sunlight",
+        "plastic",
+        "glass",
+        "sandwiches"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G3-5-S2",
+      "sectionId": "science",
+      "sectionTitle": "Science / Social Studies Reading",
+      "prompt": "Water can change into ice when it gets...",
+      "options": [
+        "hotter",
+        "colder",
+        "brighter",
+        "louder"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "K12-G3-5-S3",
+      "sectionId": "science",
+      "sectionTitle": "Science / Social Studies Reading",
+      "prompt": "A map key helps readers understand...",
+      "options": [
+        "symbols on a map",
+        "the price of a map",
+        "a story ending",
+        "music notes"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G3-5-S4",
+      "sectionId": "science",
+      "sectionTitle": "Science / Social Studies Reading",
+      "prompt": "Which is an example of a community helper?",
+      "options": [
+        "firefighter",
+        "rain cloud",
+        "desk",
+        "pencil"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G3-5-S5",
+      "sectionId": "science",
+      "sectionTitle": "Science / Social Studies Reading",
+      "prompt": "The sun is a...",
+      "options": [
+        "star",
+        "planet",
+        "moon",
+        "cloud"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G3-5-S6",
+      "sectionId": "science",
+      "sectionTitle": "Science / Social Studies Reading",
+      "prompt": "A rule in a classroom helps students...",
+      "options": [
+        "stay safe and learn",
+        "avoid all reading",
+        "make more noise",
+        "hide supplies"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G3-5-S7",
+      "sectionId": "science",
+      "sectionTitle": "Science / Social Studies Reading",
+      "prompt": "Which material is usually attracted to a magnet?",
+      "options": [
+        "iron",
+        "wood",
+        "paper",
+        "rubber"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G3-5-S8",
+      "sectionId": "science",
+      "sectionTitle": "Science / Social Studies Reading",
+      "prompt": "A timeline shows events in...",
+      "options": [
+        "time order",
+        "size order",
+        "color groups",
+        "alphabet order"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G3-5-S9",
+      "sectionId": "science",
+      "sectionTitle": "Science / Social Studies Reading",
+      "prompt": "Animals that eat only plants are called...",
+      "options": [
+        "herbivores",
+        "carnivores",
+        "machines",
+        "minerals"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G3-5-S10",
+      "sectionId": "science",
+      "sectionTitle": "Science / Social Studies Reading",
+      "prompt": "Voting is one way citizens can...",
+      "options": [
+        "make choices in a community",
+        "measure temperature",
+        "grow roots",
+        "write fractions"
+      ],
+      "correctAnswerIndex": 0
+    }
+  ],
+  "g6_8": [
+    {
+      "id": "K12-G6-8-R1",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: During the first month of the recycling project, the middle school collected 120 kilograms of paper. In the second month, the total rose to 175 kilograms. The student council concluded that posters and classroom reminders helped students remember to recycle.\n\nWhich statement best expresses the main idea?",
+      "options": [
+        "The recycling project improved after reminders were added",
+        "The school stopped using paper",
+        "The student council disliked posters",
+        "The first month was more successful than the second"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G6-8-R2",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: During the first month of the recycling project, the middle school collected 120 kilograms of paper. In the second month, the total rose to 175 kilograms. The student council concluded that posters and classroom reminders helped students remember to recycle.\n\nWhat evidence supports the council's conclusion?",
+      "options": [
+        "The collected paper increased from 120 to 175 kilograms",
+        "The posters were made of paper",
+        "The project lasted one day",
+        "Students forgot all classroom reminders"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G6-8-R3",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: During the first month of the recycling project, the middle school collected 120 kilograms of paper. In the second month, the total rose to 175 kilograms. The student council concluded that posters and classroom reminders helped students remember to recycle.\n\nThe word concluded most nearly means...",
+      "options": [
+        "decided after considering evidence",
+        "ignored a problem",
+        "copied from a book",
+        "changed a number"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G6-8-R4",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: A biography is different from a fantasy story because it is based on a real person's life. A biography may include opinions from people who knew the person, but the main events should be accurate and supported by evidence.\n\nWhat is one key feature of a biography?",
+      "options": [
+        "It is based on a real person's life",
+        "It always includes dragons",
+        "It has no facts",
+        "It must be written as a poem"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G6-8-R5",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: A biography is different from a fantasy story because it is based on a real person's life. A biography may include opinions from people who knew the person, but the main events should be accurate and supported by evidence.\n\nWhy should main events be supported by evidence?",
+      "options": [
+        "To show they are accurate",
+        "To make the book longer",
+        "To avoid using names",
+        "To hide the author's purpose"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G6-8-R6",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: A biography is different from a fantasy story because it is based on a real person's life. A biography may include opinions from people who knew the person, but the main events should be accurate and supported by evidence.\n\nThe passage mostly explains...",
+      "options": [
+        "a genre distinction",
+        "a math process",
+        "a weather pattern",
+        "a sports rule"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G6-8-R7",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: When students work in groups, clear roles can prevent confusion. One student may record ideas, another may keep track of time, and another may present the group's conclusions. Roles do not remove responsibility; every student should still understand the work.\n\nWhat is the author's main claim?",
+      "options": [
+        "Group roles can help, but everyone remains responsible",
+        "Only one student should do the work",
+        "Presenters do not need to understand the topic",
+        "Group work always creates confusion"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G6-8-R8",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: When students work in groups, clear roles can prevent confusion. One student may record ideas, another may keep track of time, and another may present the group's conclusions. Roles do not remove responsibility; every student should still understand the work.\n\nWhich detail supports the claim?",
+      "options": [
+        "Different students can record, time, or present",
+        "Students never need roles",
+        "The classroom is noisy",
+        "Time should be ignored"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G6-8-R9",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: When students work in groups, clear roles can prevent confusion. One student may record ideas, another may keep track of time, and another may present the group's conclusions. Roles do not remove responsibility; every student should still understand the work.\n\nWhat does responsibility mean in this passage?",
+      "options": [
+        "being accountable for the work",
+        "being absent",
+        "being confused",
+        "being silent"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G6-8-R10",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: Some animals survive winter by migrating, while others hibernate. Migration requires travel to a warmer or safer place. Hibernation allows an animal to slow its body processes and use less energy until conditions improve.\n\nHow are migration and hibernation different?",
+      "options": [
+        "Migration involves travel; hibernation involves slowing body processes",
+        "Both require building schools",
+        "Only migration uses less energy",
+        "Hibernation always means flying south"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G6-8-R11",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: Some animals survive winter by migrating, while others hibernate. Migration requires travel to a warmer or safer place. Hibernation allows an animal to slow its body processes and use less energy until conditions improve.\n\nWhat is the purpose of both behaviors?",
+      "options": [
+        "To survive difficult conditions",
+        "To learn a new language",
+        "To become plants",
+        "To avoid all food forever"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G6-8-R12",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: Some animals survive winter by migrating, while others hibernate. Migration requires travel to a warmer or safer place. Hibernation allows an animal to slow its body processes and use less energy until conditions improve.\n\nThe structure of the passage is mainly...",
+      "options": [
+        "compare and contrast",
+        "problem and joke",
+        "fictional sequence",
+        "personal diary"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G6-8-R13",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: An online learner needs more than a computer. Successful students check deadlines, ask questions when they are confused, and review teacher feedback. These habits help students stay on pace even when they study from home.\n\nWhich habit is recommended?",
+      "options": [
+        "Reviewing teacher feedback",
+        "Ignoring deadlines",
+        "Waiting until the course ends",
+        "Studying without questions"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G6-8-R14",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: An online learner needs more than a computer. Successful students check deadlines, ask questions when they are confused, and review teacher feedback. These habits help students stay on pace even when they study from home.\n\nWhat is the passage mostly about?",
+      "options": [
+        "Habits that support online learning",
+        "How to buy a computer",
+        "Why feedback is never useful",
+        "How schools choose colors"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G6-8-R15",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: An online learner needs more than a computer. Successful students check deadlines, ask questions when they are confused, and review teacher feedback. These habits help students stay on pace even when they study from home.\n\nWhat does stay on pace mean?",
+      "options": [
+        "keep up with expected progress",
+        "finish with no effort",
+        "stop studying",
+        "change every deadline"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G6-8-L1",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Choose the sentence with correct subject-verb agreement.",
+      "options": [
+        "The group of students are ready.",
+        "The group of students is ready.",
+        "The group of students be ready.",
+        "The group of students were ready tomorrow."
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "K12-G6-8-L2",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Choose the best transition: The experiment failed twice. ___, the team adjusted the method and tried again.",
+      "options": [
+        "However",
+        "For example",
+        "In conclusion",
+        "Meanwhile"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G6-8-L3",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Choose the clearest revision: Because the weather was dangerous, the game was canceled.",
+      "options": [
+        "The weather was dangerous, so the game was canceled.",
+        "The game because canceled dangerous weather.",
+        "Dangerous was the game weather canceled.",
+        "Canceled game weather because dangerous."
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G6-8-L4",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Which word best fits the sentence: The data ___ the student's prediction.",
+      "options": [
+        "supports",
+        "support",
+        "supporting",
+        "to support"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G6-8-L5",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Choose the correctly punctuated sentence.",
+      "options": [
+        "After the bell rang students entered the room.",
+        "After the bell rang, students entered the room.",
+        "After, the bell rang students entered the room.",
+        "After the bell, rang students entered the room."
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "K12-G6-8-L6",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Which word means the opposite of expand?",
+      "options": [
+        "reduce",
+        "create",
+        "explain",
+        "include"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G6-8-L7",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Choose the best word: The author's tone is ___ because she gives facts without strong emotion.",
+      "options": [
+        "neutral",
+        "angry",
+        "playful",
+        "confused"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G6-8-L8",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Choose the correct pronoun: Each student should bring ___ notebook.",
+      "options": [
+        "their",
+        "his or her",
+        "them",
+        "they"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "K12-G6-8-L9",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Choose the best connector: The plan saved money; ___, it required more time.",
+      "options": [
+        "therefore",
+        "however",
+        "for instance",
+        "similarly"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "K12-G6-8-L10",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Choose the sentence that is most concise.",
+      "options": [
+        "The reason is because the test was difficult.",
+        "The test was difficult.",
+        "It was a difficult test that was hard.",
+        "The test, which was difficult, was not easy."
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "K12-G6-8-L11",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Choose the correct verb tense: By Friday, we ___ the project.",
+      "options": [
+        "complete",
+        "will have completed",
+        "completing",
+        "has completed"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "K12-G6-8-L12",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Which sentence uses an academic tone?",
+      "options": [
+        "The results were really super cool.",
+        "The results suggest a clear pattern.",
+        "The results were kinda weird.",
+        "The results totally prove everything."
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "K12-G6-8-L13",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Choose the best definition of analyze.",
+      "options": [
+        "study parts carefully",
+        "copy quickly",
+        "guess randomly",
+        "decorate neatly"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G6-8-L14",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Choose the correct punctuation.",
+      "options": [
+        "The three supplies are pencils, paper, and tape.",
+        "The three supplies are pencils paper and tape.",
+        "The three supplies, are pencils, paper and tape.",
+        "The three supplies are pencils; paper, and tape."
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G6-8-L15",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Choose the best revision: The chart shows students favorite subjects.",
+      "options": [
+        "The chart shows students' favorite subjects.",
+        "The chart show students favorite subjects.",
+        "The chart shows student favorite's subjects.",
+        "The chart's shows students favorite subjects."
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G6-8-M1",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "Solve: 3x + 5 = 20. What is x?",
+      "options": [
+        "3",
+        "5",
+        "7",
+        "15"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "K12-G6-8-M2",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "What is 25% of 80?",
+      "options": [
+        "10",
+        "15",
+        "20",
+        "25"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "K12-G6-8-M3",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "Which expression is equivalent to 2(4 + x)?",
+      "options": [
+        "8 + 2x",
+        "6 + x",
+        "8x",
+        "4 + 2x"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G6-8-M4",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "A rectangle has length 12 cm and width 5 cm. What is its area?",
+      "options": [
+        "17 cm²",
+        "34 cm²",
+        "60 cm²",
+        "120 cm²"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "K12-G6-8-M5",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "What is the mean of 4, 6, 8, and 10?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "K12-G6-8-M6",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "Which number is the greatest?",
+      "options": [
+        "0.45",
+        "0.5",
+        "0.405",
+        "0.049"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "K12-G6-8-M7",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "Simplify: 5/6 - 1/6",
+      "options": [
+        "4/6",
+        "5/5",
+        "6/6",
+        "1/6"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G6-8-M8",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "A ratio of 3 boys to 4 girls has 21 boys. How many girls are there?",
+      "options": [
+        "12",
+        "21",
+        "28",
+        "49"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "K12-G6-8-M9",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "Which point is on the x-axis?",
+      "options": [
+        "(0, 5)",
+        "(3, 0)",
+        "(2, 2)",
+        "(-1, 4)"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "K12-G6-8-M10",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "What is the value of 2³?",
+      "options": [
+        "5",
+        "6",
+        "8",
+        "9"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "K12-G6-8-M11",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "A jacket costs $60 and is discounted 10%. What is the sale price?",
+      "options": [
+        "$50",
+        "$54",
+        "$56",
+        "$66"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "K12-G6-8-M12",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "Solve: -4 + 9 =",
+      "options": [
+        "-13",
+        "-5",
+        "5",
+        "13"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "K12-G6-8-M13",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "Which is a linear equation?",
+      "options": [
+        "y = 2x + 3",
+        "y = x²",
+        "y = 1/x",
+        "y = 2^x"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G6-8-M14",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "The probability of choosing a red marble is 3/10. What percent is this?",
+      "options": [
+        "3%",
+        "10%",
+        "30%",
+        "70%"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "K12-G6-8-M15",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "If a car travels 180 miles in 3 hours, what is its average speed?",
+      "options": [
+        "30 mph",
+        "45 mph",
+        "60 mph",
+        "90 mph"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "K12-G6-8-M16",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "What is the circumference formula for a circle?",
+      "options": [
+        "C = 2πr",
+        "A = lw",
+        "V = lwh",
+        "P = 2l + 2w"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G6-8-M17",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "Simplify: 4a + 2a",
+      "options": [
+        "6a",
+        "8a",
+        "6a²",
+        "2a"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G6-8-M18",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "A triangle has angles 50° and 60°. What is the third angle?",
+      "options": [
+        "60°",
+        "70°",
+        "80°",
+        "90°"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "K12-G6-8-M19",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "Which value makes the inequality true: x > 7?",
+      "options": [
+        "5",
+        "7",
+        "8",
+        "0"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "K12-G6-8-M20",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "What is 1.2 × 0.5?",
+      "options": [
+        "0.06",
+        "0.6",
+        "1.7",
+        "6"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "K12-G6-8-S1",
+      "sectionId": "science",
+      "sectionTitle": "Science / Social Studies Reading",
+      "prompt": "In an experiment, the variable that is changed on purpose is the...",
+      "options": [
+        "independent variable",
+        "dependent variable",
+        "control group",
+        "conclusion"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G6-8-S2",
+      "sectionId": "science",
+      "sectionTitle": "Science / Social Studies Reading",
+      "prompt": "A claim should be supported by...",
+      "options": [
+        "evidence",
+        "decoration",
+        "opinion only",
+        "a longer title"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G6-8-S3",
+      "sectionId": "science",
+      "sectionTitle": "Science / Social Studies Reading",
+      "prompt": "Which process allows plants to make food using sunlight?",
+      "options": [
+        "photosynthesis",
+        "erosion",
+        "evaporation",
+        "condensation"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G6-8-S4",
+      "sectionId": "science",
+      "sectionTitle": "Science / Social Studies Reading",
+      "prompt": "The legislative branch mainly...",
+      "options": [
+        "makes laws",
+        "interprets laws",
+        "grows crops",
+        "measures speed"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G6-8-S5",
+      "sectionId": "science",
+      "sectionTitle": "Science / Social Studies Reading",
+      "prompt": "A primary source is...",
+      "options": [
+        "an original document or firsthand account",
+        "a summary written much later",
+        "a fictional story",
+        "a vocabulary list"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G6-8-S6",
+      "sectionId": "science",
+      "sectionTitle": "Science / Social Studies Reading",
+      "prompt": "Which is an example of a renewable resource?",
+      "options": [
+        "solar energy",
+        "coal",
+        "natural gas",
+        "oil"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G6-8-S7",
+      "sectionId": "science",
+      "sectionTitle": "Science / Social Studies Reading",
+      "prompt": "Erosion is the process of...",
+      "options": [
+        "moving weathered rock or soil",
+        "creating laws",
+        "counting votes",
+        "forming a budget"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G6-8-S8",
+      "sectionId": "science",
+      "sectionTitle": "Science / Social Studies Reading",
+      "prompt": "A balanced ecosystem has...",
+      "options": [
+        "interacting living and nonliving parts",
+        "only one animal",
+        "no plants",
+        "no energy flow"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G6-8-S9",
+      "sectionId": "science",
+      "sectionTitle": "Science / Social Studies Reading",
+      "prompt": "Which term describes money earned by workers?",
+      "options": [
+        "income",
+        "latitude",
+        "gravity",
+        "migration"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G6-8-S10",
+      "sectionId": "science",
+      "sectionTitle": "Science / Social Studies Reading",
+      "prompt": "The main purpose of a graph in a science report is to...",
+      "options": [
+        "show data clearly",
+        "replace all evidence",
+        "make the report longer",
+        "hide the results"
+      ],
+      "correctAnswerIndex": 0
+    }
+  ],
+  "g9_12": [
+    {
+      "id": "K12-G9-12-R1",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: A student argues that online courses can build independence, but only when students receive clear expectations and regular feedback. Without pacing guides, students may postpone work; without feedback, they may repeat mistakes. The strongest online programs combine flexibility with structured support.\n\nWhich statement best captures the central claim?",
+      "options": [
+        "Online courses work best when flexibility is paired with structure",
+        "Online courses should remove all feedback",
+        "Students always fail online courses",
+        "Pacing guides are less useful than postponing work"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-R2",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: A student argues that online courses can build independence, but only when students receive clear expectations and regular feedback. Without pacing guides, students may postpone work; without feedback, they may repeat mistakes. The strongest online programs combine flexibility with structured support.\n\nWhich evidence would best support the claim?",
+      "options": [
+        "Data showing higher completion rates with weekly feedback",
+        "A story about a laptop color",
+        "A list of unrelated clubs",
+        "A definition of vacation"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-R3",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: A student argues that online courses can build independence, but only when students receive clear expectations and regular feedback. Without pacing guides, students may postpone work; without feedback, they may repeat mistakes. The strongest online programs combine flexibility with structured support.\n\nThe word postpone most nearly means...",
+      "options": [
+        "delay",
+        "complete",
+        "explain",
+        "measure"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-R4",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: In a lab report, a conclusion should not simply repeat the hypothesis. It should interpret the data, identify whether the evidence supports the hypothesis, and note possible limitations. A strong conclusion also suggests what could be tested next.\n\nWhat should a strong conclusion include?",
+      "options": [
+        "interpretation of data and limitations",
+        "only the hypothesis copied again",
+        "a personal story unrelated to data",
+        "a list of classmates"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-R5",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: In a lab report, a conclusion should not simply repeat the hypothesis. It should interpret the data, identify whether the evidence supports the hypothesis, and note possible limitations. A strong conclusion also suggests what could be tested next.\n\nWhy mention limitations?",
+      "options": [
+        "To show awareness of what the evidence can and cannot prove",
+        "To make the experiment invalid",
+        "To avoid discussing data",
+        "To replace the conclusion"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-R6",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: In a lab report, a conclusion should not simply repeat the hypothesis. It should interpret the data, identify whether the evidence supports the hypothesis, and note possible limitations. A strong conclusion also suggests what could be tested next.\n\nThe passage is mainly about...",
+      "options": [
+        "writing a scientific conclusion",
+        "choosing lab equipment",
+        "memorizing a formula",
+        "planning a field trip"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-R7",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: Credit recovery courses can help students regain progress toward graduation, but they require careful monitoring. If students rush through assignments without mastering the skills, the course may close a transcript gap while leaving an academic gap.\n\nWhat concern does the author raise?",
+      "options": [
+        "Finishing credits without mastering skills",
+        "Students reading too much",
+        "Graduation requiring no records",
+        "Monitoring being impossible"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-R8",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: Credit recovery courses can help students regain progress toward graduation, but they require careful monitoring. If students rush through assignments without mastering the skills, the course may close a transcript gap while leaving an academic gap.\n\nWhat distinction does the passage make?",
+      "options": [
+        "Transcript progress versus academic mastery",
+        "Math versus science labs",
+        "Online versus paper books",
+        "Teachers versus parents only"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-R9",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: Credit recovery courses can help students regain progress toward graduation, but they require careful monitoring. If students rush through assignments without mastering the skills, the course may close a transcript gap while leaving an academic gap.\n\nThe author's tone is best described as...",
+      "options": [
+        "cautious and practical",
+        "angry and insulting",
+        "comic and playful",
+        "confused and uncertain"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-R10",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: A historical argument is stronger when it uses multiple sources. One document may reveal what a leader planned, while another may show how citizens responded. Comparing sources helps students avoid relying on a single limited perspective.\n\nWhy should students compare multiple sources?",
+      "options": [
+        "To avoid relying on one limited perspective",
+        "To make every source fictional",
+        "To remove evidence from the argument",
+        "To ignore citizens' responses"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-R11",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: A historical argument is stronger when it uses multiple sources. One document may reveal what a leader planned, while another may show how citizens responded. Comparing sources helps students avoid relying on a single limited perspective.\n\nWhich example best fits the passage?",
+      "options": [
+        "Using a speech and a diary to study an event",
+        "Using one random title only",
+        "Using no documents",
+        "Using a math equation as a primary source"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-R12",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: A historical argument is stronger when it uses multiple sources. One document may reveal what a leader planned, while another may show how citizens responded. Comparing sources helps students avoid relying on a single limited perspective.\n\nWhat does perspective mean here?",
+      "options": [
+        "point of view",
+        "page number",
+        "table size",
+        "spelling rule"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-R13",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: Financial literacy includes understanding how choices create trade-offs. Saving money may limit spending now, but it can create options later. Borrowing can solve an immediate problem, but interest increases the total cost over time.\n\nWhat is the passage mostly about?",
+      "options": [
+        "Trade-offs in financial decisions",
+        "The history of every bank",
+        "Why saving is impossible",
+        "How to avoid all choices"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-R14",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: Financial literacy includes understanding how choices create trade-offs. Saving money may limit spending now, but it can create options later. Borrowing can solve an immediate problem, but interest increases the total cost over time.\n\nWhich statement is supported?",
+      "options": [
+        "Borrowing can cost more over time because of interest",
+        "Saving always eliminates future options",
+        "Interest makes loans free",
+        "Spending now has no effect later"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-R15",
+      "sectionId": "reading",
+      "sectionTitle": "Academic English Reading",
+      "prompt": "Read the passage: Financial literacy includes understanding how choices create trade-offs. Saving money may limit spending now, but it can create options later. Borrowing can solve an immediate problem, but interest increases the total cost over time.\n\nWhat does trade-off mean?",
+      "options": [
+        "giving up one benefit to gain another",
+        "getting everything with no cost",
+        "copying numbers",
+        "changing a password"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-L1",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Choose the most precise revision: The policy had a big effect on attendance.",
+      "options": [
+        "The policy significantly increased attendance.",
+        "The policy was a thing for attendance.",
+        "The policy did attendance a lot.",
+        "The policy had stuff about attendance."
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-L2",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Choose the best transition: The first source describes the law's purpose. ___, the second source shows public reaction.",
+      "options": [
+        "In contrast",
+        "For example",
+        "Therefore",
+        "Regardless"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-L3",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Choose the sentence with correct punctuation.",
+      "options": [
+        "The course includes algebra, biology, and world history.",
+        "The course includes algebra biology and world history.",
+        "The course includes, algebra, biology and world history.",
+        "The course, includes algebra, biology, and world history."
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-L4",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Which revision removes redundancy?",
+      "options": [
+        "The final result was unexpected.",
+        "The final end result was unexpected.",
+        "The final result was unexpected and not expected.",
+        "The end final result was unexpectedly unexpected."
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-L5",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Choose the correct word: The evidence ___ that the claim is too broad.",
+      "options": [
+        "suggests",
+        "suggest",
+        "suggesting",
+        "to suggest"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-L6",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Which sentence has the clearest academic tone?",
+      "options": [
+        "The author totally messes up the argument.",
+        "The author's argument is limited by weak evidence.",
+        "The author is super wrong about everything.",
+        "The argument is kinda not good."
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "K12-G9-12-L7",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Choose the best phrase to complete the sentence: Although the sample was small, ___",
+      "options": [
+        "the results may still suggest a pattern.",
+        "the results prove every case forever.",
+        "the sample was small because small.",
+        "the evidence should be ignored."
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-L8",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "What is the best definition of infer?",
+      "options": [
+        "draw a reasonable conclusion from evidence",
+        "copy a sentence exactly",
+        "guess with no evidence",
+        "summarize every detail"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-L9",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Choose the correct pronoun reference.",
+      "options": [
+        "When Maria called Ana, Maria explained the schedule.",
+        "When Maria called Ana, she explained the schedule.",
+        "Maria called Ana and explained the schedule to she.",
+        "Maria called Ana because it explained the schedule."
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-L10",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Choose the most concise sentence.",
+      "options": [
+        "Students who plan weekly are often more successful.",
+        "Students who make a plan every week on a weekly basis are often more successful.",
+        "Students, because they plan weekly, are often people who are successful.",
+        "Planning weekly each week makes students successful often."
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-L11",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Choose the correct semicolon use.",
+      "options": [
+        "The deadline is Friday; students should submit early.",
+        "The deadline; is Friday students should submit early.",
+        "The deadline is; Friday students should submit early.",
+        "The deadline is Friday students; should submit early."
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-L12",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Which word best fits an evidence-based claim?",
+      "options": [
+        "indicates",
+        "proves absolutely",
+        "feels",
+        "guesses"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-L13",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Choose the best revision: The graph is about many things.",
+      "options": [
+        "The graph compares enrollment growth across three years.",
+        "The graph has stuff and things.",
+        "The graph is doing numbers.",
+        "The graph is about lots of school things."
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-L14",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Choose the correct parallel structure.",
+      "options": [
+        "Students must read carefully, write clearly, and manage time.",
+        "Students must read carefully, clear writing, and time management.",
+        "Students must careful reading, write clearly, and time.",
+        "Students must read carefully, writing clear, and managing time."
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-L15",
+      "sectionId": "language",
+      "sectionTitle": "Language Use & Academic Vocabulary",
+      "prompt": "Which sentence avoids overclaiming?",
+      "options": [
+        "The data suggest a possible relationship.",
+        "The data prove the cause of everything.",
+        "The data show all students everywhere agree.",
+        "The data make every question certain."
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-M1",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "Solve: 2x - 7 = 15.",
+      "options": [
+        "4",
+        "8",
+        "11",
+        "22"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "K12-G9-12-M2",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "Factor: x² + 5x + 6",
+      "options": [
+        "(x + 2)(x + 3)",
+        "(x + 1)(x + 6)",
+        "(x - 2)(x - 3)",
+        "x(x + 6)"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-M3",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "What is the slope of the line through (0, 2) and (3, 8)?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "6"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "K12-G9-12-M4",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "Simplify: √49",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "14"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "K12-G9-12-M5",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "A function is defined as f(x)=3x+1. What is f(4)?",
+      "options": [
+        "7",
+        "12",
+        "13",
+        "16"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "K12-G9-12-M6",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "Which equation represents a line with slope 2 and y-intercept -3?",
+      "options": [
+        "y = 2x - 3",
+        "y = -3x + 2",
+        "y = 2x + 3",
+        "y = x - 3"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-M7",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "A $200 item is discounted 15%. What is the sale price?",
+      "options": [
+        "$150",
+        "$170",
+        "$185",
+        "$215"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "K12-G9-12-M8",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "What is the median of 5, 8, 8, 10, 14?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "14"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-M9",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "Solve the system: x + y = 10 and x - y = 2. What is x?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "8"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "K12-G9-12-M10",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "Which expression is equivalent to (a³)(a²)?",
+      "options": [
+        "a⁵",
+        "a⁶",
+        "a¹",
+        "2a³"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-M11",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "If sin θ = opposite/hypotenuse, which ratio is cos θ?",
+      "options": [
+        "adjacent/hypotenuse",
+        "opposite/adjacent",
+        "hypotenuse/opposite",
+        "opposite/hypotenuse"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-M12",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "The area of a circle is 49π. What is the radius?",
+      "options": [
+        "7",
+        "14",
+        "21",
+        "49"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-M13",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "Which is the solution to x² = 36?",
+      "options": [
+        "x = 6 only",
+        "x = -6 only",
+        "x = ±6",
+        "x = 18"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "K12-G9-12-M14",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "A data set has a high standard deviation. This means the values are...",
+      "options": [
+        "spread out",
+        "all identical",
+        "always negative",
+        "not numbers"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-M15",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "What is 0.004 written in scientific notation?",
+      "options": [
+        "4 × 10^-3",
+        "4 × 10^3",
+        "0.4 × 10^-2",
+        "40 × 10^-4"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-M16",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "Simplify: (2x)(3x²)",
+      "options": [
+        "5x²",
+        "6x²",
+        "6x³",
+        "5x³"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "K12-G9-12-M17",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "Which graph type best shows change over time?",
+      "options": [
+        "line graph",
+        "pie chart only",
+        "random list",
+        "table of names"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-M18",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "If a population grows from 500 to 600, what is the percent increase?",
+      "options": [
+        "10%",
+        "20%",
+        "25%",
+        "100%"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "K12-G9-12-M19",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "Solve: |x| = 9",
+      "options": [
+        "x = 9 only",
+        "x = -9 only",
+        "x = ±9",
+        "x = 0"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "K12-G9-12-M20",
+      "sectionId": "math",
+      "sectionTitle": "Math Readiness",
+      "prompt": "A right triangle has legs 6 and 8. What is the hypotenuse?",
+      "options": [
+        "10",
+        "12",
+        "14",
+        "48"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-S1",
+      "sectionId": "science",
+      "sectionTitle": "Science / Social Studies Reading",
+      "prompt": "A controlled experiment is designed to test...",
+      "options": [
+        "one variable at a time",
+        "every variable without records",
+        "only opinions",
+        "no hypothesis"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-S2",
+      "sectionId": "science",
+      "sectionTitle": "Science / Social Studies Reading",
+      "prompt": "In a historical essay, a thesis should...",
+      "options": [
+        "state an arguable claim",
+        "list random dates",
+        "avoid evidence",
+        "copy the prompt only"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-S3",
+      "sectionId": "science",
+      "sectionTitle": "Science / Social Studies Reading",
+      "prompt": "Which is the best example of quantitative data?",
+      "options": [
+        "32% of students completed the course",
+        "students felt nervous",
+        "the classroom seemed bright",
+        "the lesson was interesting"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-S4",
+      "sectionId": "science",
+      "sectionTitle": "Science / Social Studies Reading",
+      "prompt": "Cellular respiration mainly releases energy from...",
+      "options": [
+        "glucose",
+        "sunlight directly",
+        "rock",
+        "plastic"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-S5",
+      "sectionId": "science",
+      "sectionTitle": "Science / Social Studies Reading",
+      "prompt": "Checks and balances are intended to...",
+      "options": [
+        "limit the power of government branches",
+        "remove all laws",
+        "make one branch unlimited",
+        "replace courts with schools"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-S6",
+      "sectionId": "science",
+      "sectionTitle": "Science / Social Studies Reading",
+      "prompt": "A market economy relies heavily on...",
+      "options": [
+        "supply and demand",
+        "only royal commands",
+        "no choices",
+        "random weather"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-S7",
+      "sectionId": "science",
+      "sectionTitle": "Science / Social Studies Reading",
+      "prompt": "Which statement is a hypothesis?",
+      "options": [
+        "If study time increases, quiz scores may improve.",
+        "The quiz is on Friday.",
+        "The classroom has windows.",
+        "The graph is blue."
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-S8",
+      "sectionId": "science",
+      "sectionTitle": "Science / Social Studies Reading",
+      "prompt": "Climate is different from weather because climate describes...",
+      "options": [
+        "long-term patterns",
+        "one day's conditions only",
+        "a single cloud",
+        "today's homework"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-S9",
+      "sectionId": "science",
+      "sectionTitle": "Science / Social Studies Reading",
+      "prompt": "A credible source is usually...",
+      "options": [
+        "accurate, relevant, and supported",
+        "anonymous and unsupported",
+        "unrelated to the topic",
+        "made only of opinions"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "K12-G9-12-S10",
+      "sectionId": "science",
+      "sectionTitle": "Science / Social Studies Reading",
+      "prompt": "In economics, opportunity cost means...",
+      "options": [
+        "the next best option given up",
+        "money with no limits",
+        "a free benefit",
+        "a guaranteed profit"
+      ],
+      "correctAnswerIndex": 0
+    }
+  ]
+}

@@ -97,7 +97,7 @@ export type PlacementModule = {
   teacherReviewPrompts: Record<TestVersion, TeacherReviewPromptSet>;
   getQuestions?: (
     version: TestVersion,
-    context?: { answers: Record<string, number | string> },
+    context?: { answers: Record<string, number | string>; contact?: ContactInfo },
   ) => PlacementQuestion[];
   buildReport?: (params: {
     score: PlacementScore;

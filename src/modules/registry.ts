@@ -3,14 +3,16 @@ import type { TestId } from "../types";
 import { eslModule } from "./esl/module";
 import { ieltsModule } from "./ielts/module";
 import { satModule } from "./sat/module";
+import { chineseModule } from "./chinese/module";
+import { k12Module } from "./k12/module";
 import { createIntakeModule } from "./intake/moduleFactory";
 
 export const placementModules: PlacementModule[] = [
   eslModule,
   ieltsModule,
   satModule,
-  createIntakeModule("diploma", "Grade-level pathway review"),
-  createIntakeModule("chinese", "Chinese Beginner"),
+  k12Module,
+  chineseModule,
   createIntakeModule("ai", "AI Foundations"),
 ];
 

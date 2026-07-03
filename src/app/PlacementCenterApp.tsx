@@ -1,5 +1,6 @@
 import { FormEvent, useMemo, useState } from "react";
 import { BackgroundDecor } from "../components/BackgroundDecor";
+import { PlacementHeroBanner } from "../components/PlacementHeroBanner";
 import { TopBar } from "../components/TopBar";
 import { StepIndicator, getStepOrder } from "../components/StepIndicator";
 import { ContactPage } from "../pages/ContactPage";
@@ -18,6 +19,7 @@ import type {
   TestVersion,
 } from "../types";
 import { calculateScore, getMissingQuestionIds } from "../utils/scoring";
+import { resolveK12GradeBand } from "../modules/k12/report";
 import {
   getInitialTestId,
   getRandomVersion,
@@ -81,9 +83,9 @@ export function PlacementCenterApp() {
   const questions = useMemo(
     () =>
       module?.getQuestions
-        ? module.getQuestions(activeVersion, { answers })
+        ? module.getQuestions(activeVersion, { answers, contact })
         : [],
-    [activeVersion, answers, module],
+    [activeVersion, answers, contact, module],
   );
   const currentQuestion = questions[currentQuestionIndex];
   const currentAnswer = currentQuestion
@@ -124,9 +126,18 @@ export function PlacementCenterApp() {
     ? teacherReview.paragraphWriting.trim().split(/\s+/).length
     : 0;
 
+  function scrollToWorkspace() {
+    requestAnimationFrame(() => {
+      document.getElementById("placement-workspace")?.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    });
+  }
+
   function goToStep(nextStep: Step) {
     setStep(nextStep);
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    scrollToWorkspace();
   }
 
   function goBackStep() {
@@ -195,6 +206,12 @@ export function PlacementCenterApp() {
       return;
     }
     setSubmitMessage("");
+    if (module?.id === "diploma" && resolveK12GradeBand(contact) === "g1_2") {
+      setAnswers({});
+      setCurrentQuestionIndex(0);
+      goToStep("review");
+      return;
+    }
     if (module?.mode === "auto_grade") {
       const version = getVersionOverride() ?? getRandomVersion();
       setAssignedVersion(version);
@@ -232,43 +249,24 @@ export function PlacementCenterApp() {
     );
   }
 
-  function isMobileViewport() {
-    return window.matchMedia("(max-width: 760px)").matches;
-  }
-
   function handleQuestionMove(
     nextIndex: number,
     options?: { source?: "button" | "map" },
   ) {
     if (nextIndex < 0 || nextIndex >= questions.length) return;
 
-    const currentSection = questions[currentQuestionIndex]?.sectionId;
-    const nextSection = questions[nextIndex]?.sectionId;
-
     setCurrentQuestionIndex(nextIndex);
     setSubmitMessage("");
 
-    const isMobile = isMobileViewport();
-
-    // Mobile:
-    // - Next/Previous: stay near the question area, do not jump back to map.
-    // - Question Map click: scroll to the question panel.
-    if (isMobile) {
-      if (options?.source === "map") {
-        requestAnimationFrame(() => {
-          document.getElementById("question-panel")?.scrollIntoView({
-            behavior: "smooth",
-            block: "start",
-          });
+    // Keep question navigation stable. Only a direct click on the question map
+    // moves the viewport back to the question panel; Next/Previous stays in place.
+    if (options?.source === "map") {
+      requestAnimationFrame(() => {
+        document.getElementById("question-panel")?.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
         });
-      }
-      return;
-    }
-
-    // Desktop/tablet:
-    // Keep the old helpful auto-scroll behavior.
-    if (currentSection !== nextSection || nextSection !== "reading") {
-      window.scrollTo({ top: 0, behavior: "smooth" });
+      });
     }
   }
 
@@ -313,6 +311,8 @@ export function PlacementCenterApp() {
       eslReport: module?.id === "esl" ? report : undefined,
       ieltsReport: module?.id === "ielts" ? report : undefined,
       satReport: module?.id === "sat" ? report : undefined,
+      chineseReport: module?.id === "chinese" ? report : undefined,
+      k12Report: module?.id === "diploma" ? report : undefined,
       teacherReview,
       submittedAt: new Date().toISOString(),
       source: window.location.href,
@@ -371,11 +371,13 @@ export function PlacementCenterApp() {
       <TopBar />
       <main id="top" className="main-layout">
         <section className="stage-panel">
+          <PlacementHeroBanner />
           <StepIndicator
             activeStepIndex={activeStepIndex}
             onBack={goBackStep}
             skipReview={shouldSkipReview}
           />
+          <div id="placement-workspace" className="placement-workspace-anchor" />
           {step === "intro" && <IntroPage onStart={() => goToStep("select")} />}
           {step === "select" && (
             <SelectTestPage
